@@ -1,0 +1,18 @@
+<resources>
+	<spritesheet>
+		<imagesrc>gems.png</imagesrc>
+		<framesrc>gems.xml</framesrc>
+	</spritesheet>
+	<spritesheet>
+		<imagesrc>cutman.png</imagesrc>
+		<framesrc>cutman.xml</framesrc>
+	</spritesheet>
+	<spritesheet>
+		<imagesrc>megaman.png</imagesrc>
+		<framesrc>megaman.xml</framesrc>
+	</spritesheet>
+	<spritesheet>
+		<imagesrc>playfield.png</imagesrc>
+		<framesrc>playfield.xml</framesrc>
+	</spritesheet>
+</resources>

@@ -1,0 +1,14 @@
+<spriteset>
+	<author>Kyle Siehl</author>
+	<name>playfield</name>
+	<type>image/png</type>
+	<width>224</width>
+	<height>416</height>
+	<frameset>
+		<name>playfield</name>
+		<top>0</top>
+		<left>0</left>
+		<height>416</height>
+		<width>192</width>
+	</frameset>
+</spriteset>

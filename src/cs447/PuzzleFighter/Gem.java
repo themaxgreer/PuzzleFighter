@@ -1,23 +1,11 @@
 package cs447.PuzzleFighter;
 
-import jig.engine.RenderingContext;
 import jig.engine.Sprite;
-import jig.engine.util.Vector2D;
 
-public class Gem extends Sprite {
-	public GemType type;
+abstract public class Gem extends Sprite {
+	abstract public int crash(Color color, boolean initialCrash);
 
-	public Gem(GemType type) {
-		this(type, "redGem");
-	}
-
-	public Gem(GemType type, String resource) {
+	public Gem(String resource) {
 		super(resource);
-		this.type = type;
-	}
-
-	public void render(RenderingContext rc, Vector2D pos) {
-		position = pos.scale(new Vector2D(25, 25));
-		super.render(rc);
 	}
 }
